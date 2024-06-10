@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar > .links {
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  color: white;
+  font-size: 25px;
+}

@@ -1,0 +1,61 @@
+.card .card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card > .card-items > .product > div > img {
+  width: 220px;
+  height: auto;
+}
+.card > .card-items > .product {
+  display: flex;
+  width: 700px;
+  height: 250px;
+  align-items: center;
+  border-radius: 15px;
+  margin: 30px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 2);
+}
+
+.card .description p {
+  width: 100%;
+  font-size: 30px;
+  margin: 1rem 0 1rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+.card .description .count {
+  margin: 2rem;
+}
+
+.card .description .count input {
+  width: 30px;
+  height: 17px;
+}
+
+.card .description .count button {
+  height: 20px;
+  width: 30px;
+}
+.card .checkout {
+  margin: 2rem;
+}
+.card .checkout p {
+  font-size: 20px;
+}
+.card .checkout button {
+  font-size: x-large;
+  margin: 2rem;
+  padding: 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+}
